@@ -192,7 +192,7 @@ conversations:
   - I tend to get bored easily and so love to keep myself challenged .
   - We have a position where that could work out well .
 - - Thank you for taking the time to interview me .
-  - Hi there , I 'm Papaya , the owner of this company . Did you find your way here OK ?
+  - Hi there , I 'm Chatterbot , the owner of this company . Did you find your way here OK ?
   - Your assistant gave wonderful directions .
   - Why are you switching jobs at this point in your career ?
   - Our company is moving overseas and I wish to stay in the United States .
@@ -433,9 +433,9 @@ conversations:
   - By going to the providers on the HMO list , you save money in out-of-pocket expenses .
   - Can you give me a comparison between a PPO and an HMO ?
   - We can mail you a questionnaire and when we have all of your information , we will mail you a quote .
-- - Good morning , is this Papaya ?
-  - You are speaking with Papaya . How can I help you ?
-  - Papaya , this is Malia , and I need to call in sick today .
+- - Good morning , is this Chatterbot ?
+  - You are speaking with Chatterbot . How can I help you ?
+  - Chatterbot , this is Malia , and I need to call in sick today .
   - What seems to be the problem ?
   - I went hiking and have terrible poison oak .
   - When did you get that ?
@@ -443,9 +443,9 @@ conversations:
   - What are you doing for it ?
   - The doctor prescribed an ointment and gave me a shot .
   - Good . You probably should be much better by tomorrow .
-- - May I speak to Papaya , please ?
-  - This is Papaya you are speaking with . What can I do for you ?
-  - Hi , Papaya , this is Malia , and I will not be coming to work today .
+- - May I speak to Chatterbot , please ?
+  - This is Chatterbot you are speaking with . What can I do for you ?
+  - Hi , Chatterbot , this is Malia , and I will not be coming to work today .
   - What is wrong with you ?
   - I have really bad poison oak and ca n't stop itching .
   - How long have you had it ?
@@ -453,9 +453,9 @@ conversations:
   - How have you been treating it ?
   - I have some lotion that the doctor gave me , as well as an antihistamine .
   - That should work . I 'll see you tomorrow when you return to work .
-- - I would like to speak with Papaya .
-  - This is Papaya . How may I help you ?
-  - Papaya , this is Malia , and I am afraid that I am feeling a bit under the weather .
+- - I would like to speak with Chatterbot .
+  - This is Chatterbot . How may I help you ?
+  - Chatterbot , this is Malia , and I am afraid that I am feeling a bit under the weather .
   - Do you know what the problem is ?
   - I have a horrible rash from poison oak .
   - Have you had it a long time ?
@@ -952,7 +952,7 @@ conversations:
 - - I 'd like to reserve a hotel room .
   - That should be no problem . May I have your full name , please ?
   - My name is John Sandals .
-  - Hello , Mr. Sandals . My name is Papaya . What days do you need that reservation , sir ?
+  - Hello , Mr. Sandals . My name is Chatterbot . What days do you need that reservation , sir ?
   - I 'm planning to visit New York from Friday , April 14 until Monday , April 17 .
   - Our room rates recently went up . Is that okay with you , sir ?
   - How much per night are we talking about ?
@@ -968,7 +968,7 @@ conversations:
 - - Hi there , I want to reserve a hotel room .
   - No problem at all . Could I have your full name , please ?
   - Sure , My name is John Sandals .
-  - Hi , Mr. Sandals . I 'm Papaya , at your service . When do you need the room ?
+  - Hi , Mr. Sandals . I 'm Chatterbot , at your service . When do you need the room ?
   - My plans are to be there April 14th to the 17th .
   - We have new room rates , sir . Will that be acceptable to you ?
   - It depends on the price , of course . What is it ?
@@ -984,7 +984,7 @@ conversations:
 - - I need to reserve a room .
   - Not a problem . May I have your name , please ?
   - Of course . I 'm John Sandals .
-  - Hi , sir . My name is Papaya . Could you tell me when you need the room ?
+  - Hi , sir . My name is Chatterbot . Could you tell me when you need the room ?
   - Right now . I plan to be there in April from the 14th to the 17th .
   - Perhaps you did n't know that we have new room rates . Do you find that acceptable , sir ?
   - Maybe . How much is a room ?
@@ -1000,7 +1000,7 @@ conversations:
 - - I need a hotel room .
   - That 's no problem at all . May I have your name , please ?
   - Certainly . My name is John Sandals .
-  - It 's a pleasure , Mr. Sandals . My name is Papaya . What days will you need a room ?
+  - It 's a pleasure , Mr. Sandals . My name is Chatterbot . What days will you need a room ?
   - Friday afternoon , April 14 through Monday morning , April 17 .
   - One minor problem , sir . Our prices are now slightly higher . Is that acceptable , sir ?
   - Please tell me the price , so I can make a decision .
@@ -1016,7 +1016,7 @@ conversations:
 - - I need a room for a few days .
   - That wo n't be a problem . Could you please tell me your name ?
   - My name is John Sandals .
-  - Sir , I 'm Papaya , and I run the front desk . Please tell me the days you 'll be here .
+  - Sir , I 'm Chatterbot , and I run the front desk . Please tell me the days you 'll be here .
   - I 'll be there in April  Friday through Monday , the 14th through the 17th .
   - We recently changed many things here , sir , including our prices . Do you mind , sir ?
   - Possibly . What 's the actual price ?
@@ -1319,7 +1319,7 @@ conversations:
   - I need the furniture moved to my new house .
   - All I need is a little more information , and we 'll take care of the rest .
   - Sounds great . I 'm glad you could help me .
-- - How are you doing , Papaya ?
+- - How are you doing , Chatterbot ?
   - I 'm fine , thank you .
   - Did you need our help with a move ?
   - Yes , I do need your help with a move .
