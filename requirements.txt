@@ -7,3 +7,4 @@ chatterbot-corpus>=1.2.0
 SQLAlchemy>=1.2
 python-levenshtein
 dnspython
+gunicorn
