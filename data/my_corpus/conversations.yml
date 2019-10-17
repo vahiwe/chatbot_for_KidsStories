@@ -1,17 +1,17 @@
 categories:
 - conversations
 conversations:
-- - "How are you?"
-  - "I am good."
-  - "That is good to hear."
-  - "Thank you"
-  - "You are welcome."
-- - "Hi there!"
-  - "Hello"
-- - "Greetings!"
-  - "Hello"
-- - "How was your day",
-  - "It was fine. Thank you",
+- - How are you?
+  - I am good.
+  - That is good to hear.
+  - Thank you
+  - You are welcome.
+- - Hi there!
+  - Hello
+- - Greetings!
+  - Hello
+- - How was your day
+  - It was fine. Thank you
 - - Good morning !
   - Good morning ! 
   - How are you doing ?
