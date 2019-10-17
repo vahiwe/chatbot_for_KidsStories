@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 english_bot = ChatBot("Chatterbot", 
                         storage_adapter='chatterbot.storage.MongoDatabaseAdapter',
-                        database_uri='mongodb+srv://root:<password>@cluster0-bl24x.mongodb.net/test?retryWrites=true&w=majority',
+                        database_uri='mongodb+srv://root:oyEoPn39je1xGa38@cluster0-bl24x.mongodb.net/test?retryWrites=true&w=majority',
                         statement_comparison_function=levenshtein_distance,
                         filters=[
                         'chatterbot.filters.RepetitiveResponseFilter'
