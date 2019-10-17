@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="/static/style.css">
+    <link rel="stylesheet" type="text/css" href="../static/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
@@ -15,6 +15,7 @@
             <p class="botText"><span>Hi! I'm Chatterbot.</span></p>
         </div>
         <div id="userInput">
+            <div disabled id="typing" style="display: none">ChatterBot is typing....</div>
             <input id="textInput" type="text" name="msg" placeholder="Message">
             <input id="buttonInput" type="submit" value="Send">
         </div>
@@ -22,6 +23,7 @@
             function getBotResponse() {
                 var rawText = $("#textInput").val();
                 var userHtml = '<p class="userText"><span>' + rawText + '</span></p>';
+                $("#typing").show();
                 $("#textInput").val("");
                 $("#chatbox").append(userHtml);
                 document.getElementById('userInput').scrollIntoView({
@@ -32,6 +34,7 @@
                     msg: rawText
                 }).done(function (data) {
                     var botHtml = '<p class="botText"><span>' + data + '</span></p>';
+                    $("#typing").hide();
                     $("#chatbox").append(botHtml);
                     document.getElementById('userInput').scrollIntoView({
                         block: 'start',
