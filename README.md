@@ -1,3 +1,11 @@
+<div align="center">
+
+![hng](https://res.cloudinary.com/iambeejayayo/image/upload/v1554240066/brand-logo.png)
+
+<br>
+
+</div>
+
 # KidsStories ChatBot
 
 #### A web implementation of a ChatBot for KidsStories using Flask and [ChatterBot](https://github.com/gunthercox/ChatterBot).
