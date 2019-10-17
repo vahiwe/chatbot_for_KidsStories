@@ -2,7 +2,10 @@ from flask import Flask, render_template, request
 from chatterbot import ChatBot
 from chatterbot.trainers import ChatterBotCorpusTrainer, ListTrainer
 from chatterbot.comparisons import levenshtein_distance
-
+import nltk
+nltk.download('stopwords')
+nltk.download('averaged_perceptron_tagger')
+nltk.download('wordnet')
 app = Flask(__name__)
 
 english_bot = ChatBot("Chatterbot", 
