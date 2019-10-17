@@ -1,6 +1,17 @@
 categories:
 - conversations
 conversations:
+- - "How are you?"
+  - "I am good."
+  - "That is good to hear."
+  - "Thank you"
+  - "You are welcome."
+- - "Hi there!"
+  - "Hello"
+- - "Greetings!"
+  - "Hello"
+- - "How was your day",
+  - "It was fine. Thank you",
 - - Good morning !
   - Good morning ! 
   - How are you doing ?
@@ -43,8 +54,6 @@ conversations:
   - I 'm fine . 
   - I 'm pretty good . Thanks for asking .
   - You are welcome . I 'm happy to hear that .
-  - Where are you ?
-  - Currently , I am in Miami , Florida .
   - Which city are you in ?
   - I am in Miami , Florida .
   - Which school do you go to ?
