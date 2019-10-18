@@ -12,7 +12,7 @@ APP = Flask(__name__)
 
 ENGLISH_BOT = ChatBot("Chatterbot",
                       storage_adapter='chatterbot.storage.MongoDatabaseAdapter',
-                      database_uri='mongodb+srv://root:uRjqvaFhUTjEBx9h@cluster0-bl24x.mongodb.net/test?retryWrites=true&w=majority',# pylint: disable=line-too-long
+                      database_uri='mongodb+srv://root:SLYR3Xi7s83uluv7@cluster0-bl24x.mongodb.net/test?retryWrites=true&w=majority',# pylint: disable=line-too-long
                       statement_comparison_function=levenshtein_distance,
                       filters=[
                           'chatterbot.filters.RepetitiveResponseFilter'],
