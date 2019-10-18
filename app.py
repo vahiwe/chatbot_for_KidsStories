@@ -12,7 +12,7 @@ APP = Flask(__name__)
 
 ENGLISH_BOT = ChatBot("Chatterbot",
                       storage_adapter='chatterbot.storage.MongoDatabaseAdapter',
-                      database_uri='mongodb+srv://root:bVDBt2c15VbptdGd@cluster0-bl24x.mongodb.net/test?retryWrites=true&w=majority',# pylint: disable=line-too-long
+                      database_uri='mongodb+srv://root:M87xJmecx3MBdZgL@cluster0-bl24x.mongodb.net/test?retryWrites=true&w=majority',# pylint: disable=line-too-long
                       statement_comparison_function=levenshtein_distance,
                       filters=[
                           'chatterbot.filters.RepetitiveResponseFilter'],
@@ -30,10 +30,10 @@ ENGLISH_BOT = ChatBot("Chatterbot",
 TRAINER = ChatterBotCorpusTrainer(ENGLISH_BOT)
 
 # For training Custom corpus data
-TRAINER.train("./data/my_corpus/")
+# TRAINER.train("./data/my_corpus/")
 
 # For training English corpus data
-TRAINER.train('chatterbot.corpus.english')
+# TRAINER.train('chatterbot.corpus.english')
 
 # For training list of conversations
 # TRAINER_LIST = ListTrainer(ENGLISH_BOT)
