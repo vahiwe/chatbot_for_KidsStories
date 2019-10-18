@@ -138,7 +138,7 @@
 
             </header>
             <!--End Main Header -->
-            <main>
+            <main id="chatbbot">
                 <!--            <section class="banner-section-three bg-fwhite">-->
 
                 <div class="sec-title centered">
@@ -163,8 +163,8 @@
                             $("#typing").show();
                             $("#textInput").val("");
                             $("#chatbox").append(userHtml);
-                            document.getElementById('userInput').scrollIntoView({
-                                block: 'start',
+                            document.getElementById('chatbbot').scrollIntoView({
+                                block: 'end',
                                 behavior: 'smooth'
                             });
                             $.get("/get", {
@@ -173,8 +173,8 @@
                                 var botHtml = '<p class="botText"><span>' + data + '</span></p>';
                                 $("#typing").hide();
                                 $("#chatbox").append(botHtml);
-                                document.getElementById('userInput').scrollIntoView({
-                                    block: 'start',
+                                document.getElementById('chatbbot').scrollIntoView({
+                                    block: 'end',
                                     behavior: 'smooth'
                                 });
                             });
