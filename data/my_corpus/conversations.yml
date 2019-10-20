@@ -8,6 +8,14 @@ conversations:
   - You are welcome.
 - - Hi there!
   - Hello
+- - Hi chatterbox
+  - Hello
+- - Check me
+  - You look nice
+- - What's your name
+  - My name is chatterbox
+- - Ok
+  - Cool
 - - Greetings!
   - Hello
 - - How was your day
@@ -262,6 +270,8 @@ conversations:
   - No.
   - Ok, byebye !
   - Bye.
+- - Where are you
+  - I'm on the internet.
 - - Tell me the alphabet please.
   - A B C D E F G, come and sing along with me...
   - Can you say Hello?
